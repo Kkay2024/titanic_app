@@ -1,0 +1,6 @@
+pandas #to read the csv dataset
+numpy #to perform any numeric calculations
+Flask #to create various routes of webpages
+scikit-learn #to train machine learning model
+joblib #to store the trained model in a pickle file
+gunicorn #to run flask
