@@ -2,12 +2,10 @@
 <html>
 <head>
     <title>Titanic Survival Predictor</title>
-    <!-- Correct Flask way to link CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <h2>Titanic Survival Predictor</h2>
-
     <form action="/predict" method="POST">
         <label>Sex: </label>
         <select name="sex">
@@ -26,4 +24,3 @@
     {% endif %}
 </body>
 </html>
-
